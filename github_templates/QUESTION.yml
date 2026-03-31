@@ -1,12 +1,15 @@
+# Motivation Software Inc. GitHub Issue Template
+# Replace <SOFTWARE> with the name of the repository or software
+
 name: Ask a question.
-description: Ask a question related to Motivation's software.
+description: Ask a question related to <SOFTWARE>.
 type: Question
 labels: "state:needs triage"
 body:
   - type: textarea
     attributes:
       label: Question
-      description: Ask any questions related to this software and its repository. 
+      description: Ask any questions related to <SOFTWARE> and its repository.
       placeholder: |
         Will the ability to control gravity be added to Earth 2.0?
     validations:

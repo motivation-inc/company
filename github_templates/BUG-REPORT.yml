@@ -1,5 +1,8 @@
+# Motivation Software Inc. GitHub Issue Template
+# Replace <SOFTWARE> with the name of the repository or software
+
 name: Report a bug
-description: Report a problem with Motivation's software.
+description: Report a problem with <SOFTWARE>.
 type: Bug
 labels: "state:needs triage"
 body:
@@ -14,11 +17,9 @@ body:
   - type: textarea
     attributes:
       label: Errors & Logs
-      description: Any error messages, logs, or warnings spawned by the bug. 
+      description: Any error messages, logs, or warnings spawned by the bug.
       placeholder: |
-        ```rust
-        println!("Try this"); // my error occured here!
-        ```
+        Error: An error occured in line 10, column 1
     validations:
       required: true
   - type: textarea
