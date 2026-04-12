@@ -29,7 +29,7 @@ System is an example project for complete beginners, allowing you to understand 
 Endings should include information about the repository's license and open source promise.
 
 ```md
-# Free & Open-Source
+## Free & Open-Source
 
 <REPO NAME> is 100% free with no drawbacks or limitations. There is no "premium" version; you get the latest and greatest, all licensed under the <REPO LICENSE>.
 
