@@ -1,5 +1,18 @@
 # Code Standards
 
+When writing code in Motivation projects, it is important to follow the standards and guidelines set below for each specific programming language. This allows for clean, concise, and descriptive source code within Motivation.
+
+## General Comments
+When writing any sort of comment or note for developers, Motivation emphasizes "self-documenting" code, where clear naming and structure reduce the need for comments.
+
+If a comment is required, or the code cannot be well understood, it is best to:
+
+- **Explain the "Why," Not the "What":** Avoid restating what the code does (e.g., // increment x). Instead, explain the rationale or intent behind a specific decision.
+- **Don't Use Comments to "Fix" Bad Code:** If code is too complex to understand without an extensive comment, it should likely be refactored for clarity rather than documented in its messy state.
+- **Keep Comments Up-to-Date:** Outdated comments that contradict the current code are more harmful than no comments at all.
+- **Be Concise and Clear:** Use plain, simple language and avoid unnecessary technical jargon or personal remarks.
+- **Explain Unidiomatic Solutions:** If you must use a non-standard workaround (e.g., to fix a browser-specific bug or optimize performance), document the reason so future developers don't mistakenly "correct" it back to standard patterns. 
+
 ## Rust
 For Rust, the formatting provided by rustfmt is followed. Use `cargo fmt` on any code before pushing changes. 
 
